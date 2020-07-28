@@ -1,0 +1,56 @@
+#orderPanel{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    -webkit-transition: 1s;
+    -webkit-transition: .3s;
+    transition: .3s;
+    top: 0px;
+    right: -250px;
+    background-color: white;
+    color: black;
+    z-index: 1000;
+    border: 2px solid gray;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+            -webkit-box-align: start;
+                -ms-flex-align: start;
+                    align-items: flex-start;
+
+}
+
+#orderPanel .column {
+    height: 35px;
+    min-height: 35px;
+    width: 100%;
+    background-color: cadetblue;
+    font-weight: 600;
+    font-size: 1.2em;
+    color: white;
+    padding: 10px;
+}
+
+#orderPanel .orderPanelHeader{
+}
+
+#orderPanel .orderPanelBody {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: 1;
+            flex-flow: 1;
+            height: 100%;
+}
+
+#orderPanel .orderPanelFooter{
+}
+
+#orderPanel #emailAddr{
+    color: red;
+    font-weight: 600;
+    font-size: 1.2em;
+}
